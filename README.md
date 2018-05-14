@@ -39,18 +39,7 @@ How to use the corrections program
 To calculate the corrections, first compile corrections_calculator.C , then:
 
       ./corrections_calculator.exe hist_div_runXXXX.root fit_t0_runXXXX.txt
-      
-How to use the efficiencies program
-==============
-Compile corrections_calculator.C , then:
-
-      ./MyEffWithDigis_all.exe directorypath  DTNTuple_runXXXX.root
-      
-Note
-==============
-To compile anything you can use compilaC like this:
-       ./compilaC  MyEffWithDigis_all
-      
+     
       
       
       
