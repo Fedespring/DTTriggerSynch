@@ -39,6 +39,15 @@ How to use the corrections program
 To calculate the corrections, first compile corrections_calculator.C , then:
 
       ./corrections_calculator.exe hist_div_runXXXX.root fit_t0_runXXXX.txt
+      
+About the cosmics calibration
+===============
+The python file RunTree_cosmics_Reco_as_ppcollisions_cfg_new.py is used to produce the ntuples for the cosmics analysis. It is necessary to reconstruct the cosmics as pp collisions to get the worst phase values of HH/HL.
+You can change the file names, looking for them in DAS (cmsweb). Then, to run interactively simply do:
+
+       cmsRun RunTree_cosmics_Reco_as_ppcollisions_cfg_new.py .
+
+This will produce the DTNtuple.root in your directory. 
      
       
       
