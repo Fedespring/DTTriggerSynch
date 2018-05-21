@@ -45,9 +45,10 @@ About the cosmics calibration
 The python file RunTree_cosmics_Reco_as_ppcollisions_cfg_new.py is used to produce the ntuples for the cosmics analysis. It is necessary to reconstruct the cosmics as pp collisions to get the worst phase values of HH/HL.
 You can change the file names, looking for them in DAS (cmsweb). Then, to run interactively simply do:
 
-       cmsRun RunTree_cosmics_Reco_as_ppcollisions_cfg_new.py .
+       cmsRun RunTree_cosmics_Reco_as_ppcollisions_cfg_new.py 
 
-This will produce the DTNtuple.root in your directory. 
+This will produce the DTNtuple.root in your directory. You can also send the jobs to crab the usual way:
+https://twiki.cern.ch/twiki/bin/viewauth/CMS/DTAnalysisLHCRuns
      
       
       
