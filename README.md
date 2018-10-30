@@ -19,13 +19,6 @@ In the first argument 1 means 1 input file, for the second argument 1 means prin
 
 This creates hist_div_runXXXX.root , a txt file with the fit values and the gifs (optional).
 
-STEP 3: Compare peak values of two runs
-
-Compile diff.C , then:
-
-      ./diff.exe hist_div_runXXXX.txt hist_div_runYYYY.txt
-Make sure to cut out the first two lines of text in the txts before doing this!
-
 How to use the collision analysis program
 ==============
 Obtain t0s with:
